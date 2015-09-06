@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Yaz Khoury's Portfolio Site</title>
+
+		<!--Bootstrap-->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<!--Stylesheet-->
+		<link rel="stylesheet" href="css/style.css">
+		<!--Google Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,100%7CIndie+Flower" rel="stylesheet">
+		<!--Font Awesome-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<div class="container">
+
+			<header class="header"><!--Banner Section-->
+
+				<div class="row">
+					<div class="col-xs-4 col-sm-6 col-md-7 col-lg-7">
+						<picture>
+							<img class="userimg img-responsive" src="img/yaz.jpg" alt="Yaz Khoury Photograph">
+						</picture>
+					</div>
+					<div class="col-xs-8 col-sm-6 col-md-5 col-lg-5 text-align-right text-uppercase">
+						<h1 class="row">Yaz Khoury</h1>
+						<h4 class="row">Front-End Engineer</h4>
+					</div>
+				</div>
+
+				<nav class="navbar navbar-default navbar-design">
+					<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="index.html"><img class="udacity-logo" src="img/udacity.svg" alt="Udacity Logo"></a>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="about.html">About Me<span class="sr-only">(current)</span></a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#appify">Appify</a></li>
+										<li><a href="#husky">Husky</a></li>
+										<li><a href="#coffee">Coffee</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+
+				<div class="row">
+					<hr class="greyline">
+				</div>
+
+			</header> <!--End Banner-->
+
+
+			<main>
+
+				<section><!--Display Image Section-->
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<h2 class="welcome-heading">Welcome To My Portfolio Site!</h2>
+						</div>
+					</div>
+					<picture>
+						<img class="displayimg"
+						src="img/bgfrontend-800_medium_1x.jpg"
+						srcset="img/bgfrontend-800_medium_1x.jpg 1x, img/bgfrontend-1600_large_2x.jpg 2x"
+						alt="Sublime Text Front End Code Screenshot">
+					</picture>
+				</section>
+
+				<section>
+					<div class="row">
+						<h2 class="col-xs-8" id="featured-work">Featured Work</h2>
+					</div>
+
+					<div class="row text-align-left">
+						<div class="col-xs-12 col-sm-4" id="appify">
+							<picture>
+								<img class="img-responsive portfolio-image"
+								src="img/webapp.jpg" data-toggle="modal" data-target="#project1"
+								alt="Web Application Photograph">
+							</picture>
+							<h3 class="text-uppercase">Appify</h3>
+							<p class="describe">http://github.com/udacity/appify</p>
+						</div>
+
+						<div class="col-xs-12 col-sm-4" id="husky">
+							<picture>
+								<img class="img-responsive portfolio-image"
+								src="img/husky.jpg" data-toggle="modal" data-target="#project2"
+								alt="Photo of a Baby Husky">
+							</picture>
+							<h3 class="text-uppercase">Husky</h3>
+							<p class="describe">http://github.com/udacity/husky</p>
+						</div>
+
+						<div class="col-xs-12 col-sm-4" id="coffee">
+							<picture>
+								<img class="img-responsive portfolio-image"
+								src="img/coffee-800_medium_1x.jpg" data-toggle="modal" data-target="#project3"
+								srcset="img/coffee-800_medium_1x.jpg 1x, img/coffee-1600_large_2x.jpg 2x"
+								alt="Photo of a cup of coffee">
+							</picture>
+							<h3 class="text-uppercase">Coffee</h3>
+							<p class="describe">http://github.com/udacity/coffee</p>
+						</div>
+					</div>
+				</section>
+
+			</main>
+
+		</div><!--Container Close-->
+
+		<div class="container-fluid fluid-padding">
+
+			<footer class="footer">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="text-center">Follow Me on Social Media</h2>
+					</div>
+				</div>
+				<div class="row icon-space">
+					<div class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2">
+						<a href="https://github.com/YazzyYaz"><span class="fa fa-github fa-5x"></span></a>
+					</div>
+					<div class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+						<a href="https://twitter.com/yazanator"><span class="fa fa-twitter fa-5x"></span></a>
+					</div>
+					<div class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-1">
+						<a href="https://www.linkedin.com/in/ykhoury"><span class="fa fa-linkedin fa-5x"></span></a>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-xs-12">
+						<p>Made with <i class="fa fa-heart"></i>&nbsp;and&nbsp;<i class="fa fa-coffee"></i>&nbsp;by Yaz Khoury</p>
+					</div>
+				</div>
+			</footer>
+
+		</div> <!--Container Close-->
+
+		<!-- Modal -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="my-modal-label1" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="my-modal-label1">Appify</h4>
+					</div>
+					<div class="modal-body">
+						<picture>
+							<img class="img-responsive" src="img/kitten.jpg" alt="Picture of a Kitten">
+						</picture>
+						<p>This was my first project in this class. I learned a lot about HTML and CSS. Stay tuned as I get it online. For now, enjoy this picture of a cute kitten!</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="my-modal-label2" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="my-modal-label2">Husky</h4>
+					</div>
+					<div class="modal-body">
+						<picture>
+							<img class="img-responsive" src="img/baby.jpg" alt="Picture of another baby husky">
+						</picture>
+						<p>This is my second project in this amazing Udacity class. I learned a lot about responsive design and images. Stay tuned as I get it online, but for now, check out this adorable husky puppy!</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="my-modal-label3" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="my-modal-label3">Coffee</h4>
+					</div>
+					<div class="modal-body">
+						<picture>
+							<img class="img-responsive"
+							src="img/united-800_medium_1x.jpg"
+							srcset="img/united-800_medium_1x.jpg 1x, img/united-1600_large_2x.jpg 2x"
+							alt="Picture of a puppy and a kitten">
+						</picture>
+						<p>This is my third project in this class. I learned a lot about Javascript. Stay tuned as I get it online, but for now, enjoy this picture of both puppies and kittens being friends! How cute is that?</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Javascript-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+
+	</body>
+</html>

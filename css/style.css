@@ -1,0 +1,186 @@
+/*
+*
+* General
+*
+*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Lato", sans-serif;
+}
+
+img,
+embed,
+video,
+object {
+	max-width: 100%;
+}
+
+body {
+	padding: 0 15px;
+}
+
+/*
+*
+* Header
+*
+*/
+.userimg {
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+}
+
+.udacity-logo {
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+}
+
+/*
+*
+* Media
+*
+*/
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 54px;
+	}
+
+	.portfolio-image {
+		text-align: center;
+	}
+
+	#featured-work {
+		font-size: 42px;
+	}
+
+	.hero {
+		font-size: 40px;
+	}
+
+	.welcome-heading {
+		text-align: center;
+		font-size: 40px;
+	}
+}
+
+/*
+*
+* Banner Section
+*
+*/
+.greyline {
+	border: none;
+	height: 2.5px;
+	/* Set the hr color */
+	color: #bcbbbb; /* old IE */
+	background-color: #bcbbbb; /* Modern Browsers */
+}
+
+.navbar-design {
+	background-color: white;
+}
+
+/*
+*
+* Display Image Section
+*
+*/
+.displayimg {
+	width: 100%;
+	height: auto;
+}
+
+.welcome-heading {
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+
+/*
+*
+* Portfolio
+*
+*/
+.portfolio-image {
+	width: 270px;
+	height: 180px;
+}
+
+/*
+*
+* Footer
+*
+*/
+.footer {
+	background-color: #bcbbbb;
+	margin: 0;
+}
+
+.icon-space {
+	padding: 1em;
+}
+
+.fluid-padding {
+	padding: 0;
+}
+
+/*
+*
+* About Me
+*
+*/
+.about-me {
+	margin-top: 5px;
+	padding: 1em;
+	border-left: 2px solid gray;
+}
+
+.my-picture {
+	display: block;
+	margin: 0 auto 10px;
+	width: 200px;
+	border: 2px solid white;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.hero {
+	padding: 1em;
+	max-width: 100%;
+	background-color: #f8981c;
+	color: white;
+}
+
+.iama-uno {
+	max-width: 100%;
+	color: black;
+	letter-spacing: 0.05em;
+	font-size: 20px;
+	margin: 0;
+}
+
+.iama {
+	max-width: 100%;
+	color: #969696;
+	letter-spacing: 0.05em;
+	font-size: 20px;
+	margin: 0;
+}
+
+.my-info {
+	max-width: 100%;
+	font-size: 22px;
+	margin: 0 auto 20px;
+}
+
+.my-info:last-of-type {
+	margin: 0;
+}
+
+.my-name {
+	color: white;
+}
